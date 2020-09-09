@@ -1,0 +1,544 @@
+.root {
+	-fx-font-family: "Helvetica";
+	
+}
+
+.background {
+	-fx-background-color: radial-gradient(focus-distance 0.0%, center 0.0% 0.0%, radius 150.0%, aqua, black);
+	
+}
+
+#loginGridPane {
+	-fx-alignment: center;
+	-fx-hgap: 10.0px;
+	-fx-vgap: 10.0px;
+	
+}
+
+#profileImageHBox {
+	-fx-alignment: center;
+	-fx-padding: 0.0px 0.0px 40.0px 0.0px;
+	
+}
+
+#welcomeText {
+	-fx-font-size: 20.0px;
+	-fx-fill: #ffffffaf;
+	
+}
+
+#loginButtonHBox {
+	-fx-alignment: center-right;
+	-fx-padding: 0.0px 0.0px 40.0px 0.0px;
+	
+}
+
+#signupButtonHBox {
+	-fx-alignment: center-right;
+	
+}
+
+.inputField {
+	-fx-max-width: 200.0px;
+	-fx-pref-width: 200.0px;
+	-fx-min-width: 200.0px;
+	-fx-background-color: #ffffffaf;
+	-fx-prompt-text-fill: #0000007f;
+	-fx-text-fill: #000000df;
+	
+}
+
+.bottomHBox {
+	-fx-pref-height: 40.0px;
+	-fx-background-color: #0000007f;
+	-fx-alignment: center-left;
+	-fx-padding: 0.0 0.0 0.0 10.0px;
+	
+}
+
+.copyrightText {
+	-fx-fill: #ffffffaf;
+	-fx-font-size: small;
+	
+}
+
+#signupSceneCenterBorderPaneTopVBox {
+	-fx-padding: 10.0px;
+	
+}
+
+#signupSceneMainGridPane {
+	-fx-alignment: center;
+	-fx-vgap: 10.0px;
+	-fx-hgap: 10.0px;
+	
+}
+
+#signupSceneTitleHBox {
+	-fx-padding: 0.0px 0.0px 20.0px 0.0px;
+	
+}
+
+#signupSceneTitleText {
+	-fx-font-size: 20.0px;
+	-fx-fill: #0000007f;
+	
+}
+
+#signupSceneGenderHBox {
+	-fx-spacing: 10.0px;
+	-fx-pref-width: 100.0px;
+	-fx-max-width: 150.0px;
+	
+}
+
+#signupSceneStudyYeadComboBox {
+	-fx-pref-width: 100.0px;
+	-fx-max-width: 150.0px;
+	-fx-background-color: #ffffffaf;
+	
+}
+
+#signupSceneRequestButtonHBox {
+	-fx-alignment: center-right;
+	
+}
+
+RadioButton .radio {
+	-fx-background-color: #ffffffaf;
+	
+}
+
+DatePicker {
+	-fx-background-color: transparent;
+	-fx-pref-width: 100.0px;
+	-fx-max-width: 150.0px;
+	
+}
+
+DatePicker .text-field {
+	-fx-background-color: #ffffffaf;
+	
+}
+
+#mainSceneLeftBorderPane {
+	-fx-background-color: #0000007f;
+	
+}
+
+#mainSceneUsersNameText {
+	-fx-fill: #ffffffaf;
+	-fx-font-size: large;
+	
+}
+
+#mainSceneLeftBorderPaneTopVBox {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#mainSceneLeftBorderPaneCenterVBox {
+	-fx-pref-width: 60.0px;
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#mainSceneOtherUsersListView {
+	-fx-background-color: #ffffff3f;
+	
+}
+
+#mainSceneOtherUsersListView .scroll-bar:horizontal .increment-arrow,
+#mainSceneOtherUsersListView .scroll-bar:horizontal .decrement-arrow,
+#mainSceneOtherUsersListView .scroll-bar:horizontal .increment-button,
+#mainSceneOtherUsersListView .scroll-bar:horizontal .decrement-button {
+    -fx-padding: 0.0;
+    
+}
+
+#mainSceneOtherUsersListView .list-cell {
+	-fx-text-fill: #000000af;
+	
+}
+
+#mainSceneOtherUsersListView .list-cell:selected {
+	-fx-text-fill: #0000003f;
+	
+}
+
+#mainSceneOtherUsersListView .list-cell:odd {
+	-fx-background-color: #ffffff7f;
+	
+}
+
+#mainSceneOtherUsersListView .list-cell:even {
+	-fx-background-color: #ffffffaf;
+	
+}
+
+#mainSceneLeftBorderPaneBottomVBox {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#mainSceneCenterBorderPane {
+	-fx-padding: 10.0px;
+	
+}
+
+#mainSceneOptionsBorderPane {
+	-fx-padding: 0.0 0.0 10.0px 0.0;
+	
+}
+
+#mainSceneOptionsBorderPane HBox {
+	-fx-spacing: 10.0px;
+	-fx-alignment: center;
+	
+}
+
+/*
+#mainSceneAddButton {
+	-fx-shape: "M18,13 L13,13 L13,18 C13,18.55 12.55,19 12,19 C11.45,19 11,18.55 11,18 L11,13 L6,13 C5.45,13 5,12.55 5,12 C5,11.45 5.45,11 6,11 L11,11 L11,6 C11,5.45 11.45,5 12,5 C12.55,5 13,5.45 13,6 L13,11 L18,11 C18.55,11 19,11.45 19,12 C19,12.55 18.55,13 18,13 Z";
+	-fx-background-color: #0000007f;
+	-fx-padding: 0px;
+	-fx-pref-width: 20px;
+	-fx-pref-height: 20px;
+	
+}
+
+#mainSceneDeleteButton {
+	-fx-shape: "M59.595,52.861L37.094,30.359L59.473,7.98c1.825-1.826,1.825-4.786,0-6.611  c-1.826-1.825-4.785-1.825-6.611,0L30.483,23.748L8.105,1.369c-1.826-1.825-4.785-1.825-6.611,0c-1.826,1.826-1.826,4.786,0,6.611  l22.378,22.379L1.369,52.861c-1.826,1.826-1.826,4.785,0,6.611c0.913,0.913,2.109,1.369,3.306,1.369s2.393-0.456,3.306-1.369  l22.502-22.502l22.501,22.502c0.913,0.913,2.109,1.369,3.306,1.369s2.393-0.456,3.306-1.369  C61.42,57.647,61.42,54.687,59.595,52.861z";
+	-fx-background-color: #0000007f;
+	-fx-padding: 0px;
+	-fx-pref-width: 13px;
+	-fx-pref-height: 13px;
+	
+}
+
+#mainSceneAddButton:hover, #mainSceneDeleteButton:hover {
+	-fx-background-color: #0000003f;
+	
+}
+*/
+
+#mainSceneConsultationsTableView {
+	-fx-background-color: transparent;
+	
+}
+
+#mainSceneConsultationsTableView .column-header, #mainSceneConsultationsTableView .column-header-background .filler {
+	-fx-background-color: #0000007f;
+	
+}
+
+#mainSceneConsultationsTableView .column-header .label {
+	-fx-text-fill: #ffffffaf;
+	
+}
+
+#mainSceneConsultationsTableView .column-header-background {
+	-fx-background-color: transparent;
+	
+}
+
+#mainSceneConsultationsTableView .table-row-cell .cell {
+	-fx-text-fill: #000000af;
+	-fx-border-color: transparent #ffffffaf transparent transparent;
+	
+}
+
+#mainSceneConsultationsTableView .table-row-cell:odd {
+	-fx-background-color: #ffffff7f;
+	
+}
+
+#mainSceneConsultationsTableView .table-row-cell:even {
+	-fx-background-color: #ffffffaf;
+	
+}
+
+#mainSceneConsultationsTableView .table-row-cell:selected .cell {
+	-fx-text-fill: #0000003f;
+	
+}
+
+MenuBar {
+	-fx-background-color: white;
+	
+}
+
+Button, DatePicker .arrow-button {
+	-fx-background-color: #0000007f;
+	-fx-text-fill: #ffffffaf;
+	-fx-focus-traversable: false;
+	
+}
+
+Button:hover, DatePicker .arrow-button:hover {
+	-fx-background-color: #ffffffaf;
+	-fx-text-fill: #000000af;
+	-fx-cursor: hand;
+	
+}
+
+#ConsultationAddingSceneCenterGridPane {
+	-fx-alignment: center;
+	-fx-vgap: 10.0px;
+	-fx-hgap: 10.0px;
+	
+}
+
+ComboBox {
+	-fx-background-color: #ffffffaf;
+	
+}
+
+ComboBox .text-field {
+	-fx-prompt-text-fill: #0000007f;
+	-fx-text-fill: #000000af;
+	
+}
+
+#consultationAddingSceneDescriptionArea {
+	-fx-background-color: #ffffffaf;
+	-fx-prompt-text-fill: #0000007f;
+	-fx-text-fill: #000000af;
+	-fx-pref-column-count: 15.0;
+	
+}
+
+#consultationAddingSceneDescriptionArea .scroll-pane {
+	-fx-background-color: transparent;
+	
+}
+
+.consultationAddingSceneTimePicker {
+	-fx-max-width: 150.0px;
+	-fx-pref-width: 150.0px;
+	-fx-min-width: 150.0px;
+	-fx-background-color: #ffffffaf;
+	-fx-prompt-text-fill: #0000007f;
+	
+}
+
+#chatSceneMainVBox {
+	-fx-spacing: 10.0px;
+	
+}
+
+#chatSceneTopBorderPane {
+	-fx-background-color: #0000007f;
+	
+}
+
+#chatSceneTopBorderPaneLeftGridPane {
+	-fx-padding: 10.0px;
+	-fx-vgap: 10.0px;
+	-fx-hgap: 10.0px;
+	
+}
+
+#chatSceneTopBorderPaneRightHBox {
+	-fx-padding: 10.0px 20.0px;
+	-fx-spacing: 20.0px;
+	-fx-alignment: center-right;
+	
+}
+
+#chatSceneOtherUsersNameText, #chatSceneOtherUsersEmailText {
+	-fx-fill: #ffffffaf;
+	
+}
+
+#chatSceneOtherUsersNameText {
+	-fx-font-size: large;
+	
+}
+
+#chatSceneCameraButton {
+	-fx-shape: "M93.227,23.522c-1.104-0.507-2.408-0.324-3.33,0.471l-18.385,15.83V21.768c0-1.778-1.447-3.226-3.226-3.226H3.225    C1.447,18.542,0,19.989,0,21.768v51.508c0,1.777,1.446,3.226,3.225,3.226h65.062c1.777,0,3.227-1.446,3.227-3.226V55.222    l18.385,15.829c0.922,0.796,2.228,0.978,3.33,0.472c1.106-0.508,1.815-1.613,1.815-2.832V26.353    C95.043,25.135,94.335,24.03,93.227,23.522z";
+	-fx-pref-height: 15.0px;
+	-fx-pref-width: 25.0px;
+	-fx-background-color: #ffffffaf;
+	-fx-padding: 0.0px;
+	
+}
+
+#chatSceneVoiceButton {
+	-fx-shape: "M33.506,36.816c0.114,0.27,0.172,0.544,0.172,0.822c0,0.385-0.102,0.743-0.307,1.077   c-0.204,0.333-0.491,0.588-0.859,0.764l-1.73,0.81c-0.675,0.307-1.351,0.53-2.028,0.669c-0.677,0.139-1.361,0.209-2.053,0.209   c-1.113,0-2.212-0.185-3.298-0.555s-2.125-0.9-3.117-1.589s-1.923-1.523-2.792-2.5c-0.869-0.978-1.648-2.068-2.335-3.271   c-0.438-0.667-0.898-1.428-1.381-2.283c-0.409-0.728-0.876-1.6-1.402-2.617c-0.526-1.016-1.056-2.145-1.592-3.384   c-0.548-1.24-0.983-2.323-1.304-3.249c-0.321-0.927-0.57-1.697-0.745-2.31c-0.205-0.716-0.346-1.33-0.423-1.841   c-0.282-0.949-0.49-1.893-0.623-2.832c-0.133-0.939-0.199-1.869-0.199-2.789c0-1.203,0.121-2.36,0.362-3.473   c0.241-1.113,0.612-2.148,1.111-3.105c0.499-0.957,1.132-1.813,1.899-2.568c0.767-0.755,1.674-1.369,2.721-1.844l1.706-0.785   C15.558,0.057,15.828,0,16.098,0c0.38,0,0.734,0.105,1.062,0.316c0.327,0.211,0.573,0.502,0.736,0.874l3.283,7.455   c0.115,0.27,0.172,0.54,0.172,0.81c0,0.397-0.102,0.764-0.307,1.101c-0.205,0.337-0.493,0.59-0.865,0.758l-3.375,1.552   c-0.446,0.205-0.787,0.505-1.025,0.902c-0.237,0.397-0.356,0.824-0.356,1.282c0,0.348,0.065,0.675,0.196,0.982l5.541,12.653   c0.217,0.487,0.516,0.845,0.899,1.074c0.382,0.229,0.799,0.344,1.249,0.344c0.307,0,0.62-0.07,0.939-0.209l3.375-1.552   c0.266-0.114,0.534-0.172,0.804-0.172c0.372,0,0.724,0.105,1.055,0.316c0.331,0.211,0.581,0.5,0.749,0.868L33.506,36.816z";
+	-fx-pref-height: 22.5px;
+	-fx-pref-width: 15.0px;
+	-fx-background-color: #ffffffaf;
+	-fx-padding: 0.0px;
+	
+}
+
+#chatSceneCameraButton:hover, #chatSceneVoiceButton:hover {
+	-fx-background-color: #ffffff3f;
+	
+}
+
+#chatSceneScrollPaneVBox {
+	-fx-padding: 0.0px 10.0px 0.0px 10.0px;
+	
+}
+
+#chatSceneScrollPane {
+	-fx-background-color: #ffffff3f;
+	-fx-pannable: false;
+	-fx-vbar-policy: as-needed;
+	-fx-pref-height: 400.0px;
+	
+}
+
+#chatSceneScrollPane .viewport {
+	-fx-background-color: transparent;
+	
+}
+
+#chatSceneBottomHBox {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#chatSceneTextArea {
+	-fx-background-color: #ffffffaf;
+	-fx-pref-height: 100.0px;
+	-fx-pref-column-count: 30.0;
+	
+}
+
+TextArea .scroll-pane, TextArea .scroll-pane .viewport, TextArea .scroll-pane .viewport, TextArea .scroll-pane .content {
+	-fx-background-color: transparent;
+	
+}
+
+#chatSceneScrollPaneContent {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#chatSceneOthersTextHBox {
+	-fx-alignment: center-left;
+	-fx-text-fill: #000000af;
+	-fx-background-color: #ffffffaf;
+	-fx-padding: 5.0px;
+	-fx-background-radius: 0.0px 10.0px 10.0px 10.0px;
+	
+}
+
+#chatSceneMyTextHBox {
+	-fx-alignment: center-right;
+	-fx-text-fill: #000000af;
+	-fx-background-color: #00ffffaf;
+	-fx-padding: 5.0px;
+	-fx-background-radius: 10.0px 0.0px 10.0px 10.0px;
+	
+}
+
+#callSceneRightBorderPane {
+	-fx-background-color: #0000007f;
+	-fx-pref-width: 140.0px;
+	
+}
+
+#callSceneRightBorderPaneTopHBox {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#callSceneRightBorderPaneBottomHBox {
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+	
+}
+
+#callSceneOtherUsersNameText {
+	-fx-fill: #ffffffaf;
+	
+}
+
+#callSceneScrollPaneVBox {
+	-fx-padding: 0.0px 10.0px 0.0px 10.0px;
+	
+}
+
+#callSceneScrollPane {
+	-fx-background-color: #ffffff3f;
+	-fx-pannable: false;
+	-fx-vbar-policy: as-needed;
+	-fx-pref-height: 570.0px;
+	-fx-wrap-text: 100.0px;
+	
+}
+
+#callSceneScrollPane .viewport {
+	-fx-background-color: transparent;
+	
+}
+
+#callSceneTextArea {
+	-fx-background-color: #ffffffaf;
+	-fx-pref-column-count: 10.0;
+	-fx-pref-height: 100.0px;
+	
+}
+
+#callSceneCenterBorderPaneBottomHBox {
+	-fx-alignment: center;
+	-fx-background-color: #0000007f;
+	-fx-spacing: 10.0px;
+	-fx-pref-height: 80.0px;
+	
+}
+
+#callSceneCenterBorderPaneCenterVBox {
+	-fx-padding: 10.0px;
+	-fx-alignment: center;
+	
+}
+
+ScrollBar:vertical, ScrollBar:horizontal {
+	-fx-background-color: transparent;
+	
+}
+
+ScrollBar:vertical .thumb, ScrollBar:horizontal .thumb {
+	-fx-background-color: #0000007f;
+	
+}
+
+#settingsSceneMainGridPane {
+	-fx-alignment: center;
+	-fx-vgap: 10.0px;
+	-fx-hgap: 10.0px;
+	
+}
+
+#settingsSceneTitleHBox {
+	-fx-alignment: center;
+	-fx-padding: 0.0px 0.0px 20.0px 0.0px;
+	
+}
+
+#settingsSceneTitleText {
+	-fx-fill: #ffffffaf;
+	-fx-font-size: 20px;
+	
+}
+
+.settingsSceneInputField {
+	-fx-background-color: #ffffffaf;
+	-fx-pref-width: 150.0px;
+	-fx-max-width: 250.0px;
+	-fx-prompt-text-fill: #0000007f;
+	-fx-text-fill: #000000df;
+	
+}

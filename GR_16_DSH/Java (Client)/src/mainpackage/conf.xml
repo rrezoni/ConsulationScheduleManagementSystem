@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<server id="udp-server">
+		<ip>192.168.0.14</ip>
+		<port>13000</port>
+	</server>
+	<server id="tcp-server">
+		<ip>192.168.0.14</ip>
+		<port>13001</port>
+	</server>
+</root>
