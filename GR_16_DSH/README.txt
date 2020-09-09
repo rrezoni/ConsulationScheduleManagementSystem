@@ -13,9 +13,9 @@ Para se te behet setup projekti nga src-kodi i bashkangjitur se pari duhet te mi
 Per nga ana e databazes, duhet te krijohet databaza me emrin 'dsh_database' dhe t'i insertohet dsh_database.sql fajlli i bashkangjitur
 
 Anetaret e grupit:
+Rrezon Hazrolli
 Albin Berisha
 Dardan Bakiu
 Ardit Konjuhi
 Diellza Bajrami
-Rrezon Hazrolli
 Besnik Rrmoku
